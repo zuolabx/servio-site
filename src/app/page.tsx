@@ -25,7 +25,7 @@ export default function ServioLanding() {
         {/* Hero */}
         <section className="space-y-10">
           <h1 className="instrument max-w-4xl text-5xl leading-[0.95] tracking-tight text-neutral-900 md:text-7xl">
-            Restaurant software
+            software
             <br />
             built for cafés,
             <br />
