@@ -29,7 +29,7 @@ export default function ServioLanding() {
             <br />
             built for cafés,
             <br />
-            not restaurants.
+            not just restaurants.
           </h1>
 
           <div className="max-w-2xl space-y-6">
