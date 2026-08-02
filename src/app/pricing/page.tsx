@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "@/components/nav";
-
+import Link from "next/link";
 export default function PricingPage() {
   return (
     <div className="min-h-screen bg-[#f8f6f2] text-[#171717] antialiased">
@@ -20,9 +20,13 @@ export default function PricingPage() {
               Launch
             </p>
 
-            <h3 className="instrument mt-3 text-4xl text-neutral-900">₹11,000</h3>
+            <h3 className="instrument mt-3 text-4xl text-neutral-900">
+              ₹11,000
+            </h3>
 
-            <p className="inter mt-1 text-sm text-neutral-500">per café / year</p>
+            <p className="inter mt-1 text-sm text-neutral-500">
+              per café / year
+            </p>
 
             <div className="my-5 h-px bg-neutral-200" />
 
@@ -38,10 +42,11 @@ export default function PricingPage() {
               <li>WhatsApp Support</li>
               <li>Regular Updates</li>
             </ul>
-
-            <button className="mt-7 w-full rounded-full border border-neutral-900 py-2.5 inter text-sm transition text-neutral-900 hover:bg-neutral-900 hover:text-white">
-              Get Started
-            </button>
+            <Link href="https://cal.com/zuolabs/30min">
+              <button className="mt-7 w-full rounded-full border border-neutral-900 py-2.5 inter text-sm transition text-neutral-900 hover:bg-neutral-900 hover:text-white">
+                Get Started
+              </button>
+            </Link>
           </div>
 
           {/* Scale */}
@@ -56,7 +61,9 @@ export default function PricingPage() {
 
             <h3 className="instrument mt-3 text-4xl">₹15,000</h3>
 
-            <p className="inter mt-1 text-sm text-neutral-400">per café / year</p>
+            <p className="inter mt-1 text-sm text-neutral-400">
+              per café / year
+            </p>
 
             <div className="my-5 h-px bg-neutral-700" />
 
@@ -70,10 +77,11 @@ export default function PricingPage() {
               <li>Priority Support</li>
               <li>Early Access to New Features</li>
             </ul>
-
-            <button className="mt-7 w-full rounded-full bg-white py-2.5 inter text-sm text-neutral-900 transition hover:bg-neutral-100">
-              Book a Demo
-            </button>
+            <Link href="https://cal.com/zuolabs/30min">
+              <button className="mt-7 w-full rounded-full bg-white py-2.5 inter text-sm text-neutral-900 transition hover:bg-neutral-100">
+                Book a Demo
+              </button>
+            </Link>
           </div>
         </section>
 
@@ -81,7 +89,7 @@ export default function PricingPage() {
           <p className="inter text-neutral-500">
             Need Servio for multiple cafés?
             <a
-              href="#"
+              href="https://cal.com/zuolabs/30min"
               className="ml-2 underline underline-offset-4 text-neutral-900"
             >
               Contact us for custom pricing.
