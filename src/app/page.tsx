@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "@/components/nav";
-
+import Link from "next/link";
 export default function ServioLanding() {
   return (
     <div className="min-h-screen bg-[#f8f6f2] text-[#171717] antialiased">
@@ -19,7 +19,7 @@ export default function ServioLanding() {
 
       <main className="mx-auto flex min-h-screen max-w-5xl flex-col justify-center px-6 py-16 md:px-12">
         {/* Logo */}
-        <Navbar/>
+        <Navbar />
         {/* Hero */}
         <section className="space-y-10">
           <h1 className="instrument max-w-4xl text-5xl leading-[0.95] tracking-tight text-neutral-900 md:text-7xl">
@@ -50,6 +50,21 @@ export default function ServioLanding() {
             <p className="inter text-lg leading-8 text-neutral-600">
               More updates soon.
             </p>
+          </div>
+
+          <div className="flex flex-col items-start gap-3 pt-2">
+            <Link
+              href="https://cal.com/zuolabs/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inter inline-flex items-center gap-2 rounded-full bg-neutral-900 px-7 py-3 text-sm font-medium text-white transition hover:bg-black"
+            >
+              Book a Demo
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M7 17L17 7M17 7H7M17 7v10"/>
+              </svg>
+            </Link>
+            <p className="inter text-sm text-neutral-500">Free 30-min call. No commitments.</p>
           </div>
         </section>
 
