@@ -23,32 +23,16 @@ export default function ServioLanding() {
         {/* Hero */}
         <section className="space-y-10">
           <h1 className="instrument max-w-4xl text-5xl leading-[0.95] tracking-tight text-neutral-900 md:text-7xl">
-            software
+            Built by people who love cafés
             <br />
-            built for cafés,
+            love cafés for people
             <br />
-            not just restaurants.
+            who run them.
           </h1>
 
           <div className="max-w-2xl space-y-6">
             <p className="inter text-lg leading-8 text-neutral-600">
-              I spend an unhealthy amount of time in specialty cafés. I'm the
-              kind of person who'll travel across the city just to try a new
-              espresso or talk to a barista about their beans.
-            </p>
-
-            <p className="inter text-lg leading-8 text-neutral-600">
-              Somewhere along the way, I stopped noticing just the coffee and
-              started noticing how cafés actually operate. Almost every owner I
-              spoke to was juggling software that felt like it was built for
-              restaurants, not cafés. Simple workflows became unnecessarily
-              complicated.
-            </p>
-            <p className="inter text-lg leading-8 text-neutral-600">
-              so am building something servio to fix it
-            </p>
-            <p className="inter text-lg leading-8 text-neutral-600">
-              More updates soon.
+              minimalist software built for modern cafes
             </p>
           </div>
 
@@ -60,11 +44,23 @@ export default function ServioLanding() {
               className="inter inline-flex items-center gap-2 rounded-full bg-neutral-900 px-7 py-3 text-sm font-medium text-white transition hover:bg-black"
             >
               Book a Demo
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M7 17L17 7M17 7H7M17 7v10"/>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M7 17L17 7M17 7H7M17 7v10" />
               </svg>
             </Link>
-            <p className="inter text-sm text-neutral-500">Free 30-min call. No commitments.</p>
+            <p className="inter text-sm text-neutral-500">
+              Free 30-min call. No commitments.
+            </p>
           </div>
         </section>
 
