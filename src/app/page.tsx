@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "@/components/nav";
 
 export default function ServioLanding() {
   return (
@@ -18,10 +19,7 @@ export default function ServioLanding() {
 
       <main className="mx-auto flex min-h-screen max-w-5xl flex-col justify-center px-6 py-16 md:px-12">
         {/* Logo */}
-        <div className="mb-16">
-          <span className="instrument text-3xl tracking-tight">servio.</span>
-        </div>
-
+        <Navbar/>
         {/* Hero */}
         <section className="space-y-10">
           <h1 className="instrument max-w-4xl text-5xl leading-[0.95] tracking-tight text-neutral-900 md:text-7xl">
@@ -82,10 +80,14 @@ export default function ServioLanding() {
           {[
             "Order Management",
             "Kitchen Operations",
-
-            "Billing",
+            "Table Management",
+            "Menu Management",
+            "Inventory Tracking",
+            "Billing & Invoicing",
+            "Payment Collection",
+            "Staff Roles & Access",
             "Sales Analytics",
-            "More coming...",
+            "Owner Mobile Dashboard",
           ].map((item) => (
             <div key={item} className="border-b border-neutral-200 py-4">
               <span className="inter text-neutral-800">{item}</span>
@@ -96,7 +98,7 @@ export default function ServioLanding() {
         {/* CTA */}
         <section className="mt-24 flex flex-col items-start gap-6">
           <button className="inter rounded-full bg-neutral-900 px-7 py-3 text-sm font-medium text-white transition hover:bg-black">
-           <a href="https://instagram.com/zuolabs">Follow the journey</a>
+            <a href="https://instagram.com/zuolabs">Follow the journey</a>
           </button>
 
           <p className="inter text-sm text-neutral-500">Launching soon.</p>
