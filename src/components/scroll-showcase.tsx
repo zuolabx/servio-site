@@ -21,7 +21,7 @@ export default function ScrollShowcase() {
   const laptopY = useTransform(scrollYProgress, [0, 0.18], [50, 0]);
   const laptopX = useTransform(scrollYProgress, [0.20, 0.38], [0, -80]);
 
-  // Phone: pure slide from right — no opacity fade so it never disappears
+  // Phone: pure slide from right - no opacity fade so it never disappears
   const phoneX = useTransform(scrollYProgress, [0.25, 0.45], [100, 0]);
 
   return (
@@ -40,7 +40,7 @@ export default function ScrollShowcase() {
         </div>
 
         {/*
-          Both devices are flex items — no absolute positioning, no overflow clipping.
+          Both devices are flex items - no absolute positioning, no overflow clipping.
           The phone takes up space in the row even while invisible, so the layout
           stays stable throughout the animation.
         */}
@@ -66,7 +66,7 @@ export default function ScrollShowcase() {
             </LaptopFrame>
           </motion.div>
 
-          {/* Phone — always visible, slides in from right */}
+          {/* Phone - always visible, slides in from right */}
           <motion.div
             style={{
               x: phoneX,
