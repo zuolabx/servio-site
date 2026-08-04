@@ -36,6 +36,19 @@ export default function Nav({ page }: NavProps) {
         >
           Pricing
         </Link>
+
+        <Link
+          href="https://cal.com/zuolabs/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full px-5 py-2 text-sm font-medium text-white transition hover:opacity-90"
+          style={{ background: "var(--accent)" }}
+        >
+          Book a Demo
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M7 17L17 7M17 7H7M17 7v10" />
+          </svg>
+        </Link>
       </div>
     </nav>
   );
