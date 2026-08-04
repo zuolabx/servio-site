@@ -20,11 +20,6 @@ const features = [
     desc: "Orders sync straight to the kitchen   no shouting across the counter.",
   },
   {
-    key: "table",
-    title: "Table Management",
-    desc: "See every table's status at a glance and turn tables faster.",
-  },
-  {
     key: "menu",
     title: "Menu Management",
     desc: "Update prices and items in seconds, everywhere at once.",
